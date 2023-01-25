@@ -4,14 +4,11 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-}
+} */
 
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: black;
+  color: white;
 }
 
-a {
-  color: #00B7FF;
-}
- */
+
