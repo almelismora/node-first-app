@@ -2,12 +2,20 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%- include('partials/head.ejs') %>
   </head>
   <body>
-    <%- include('partials/navigation.ejs') %> 
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <%- include('partials/navigation.ejs') %>
+    
+    <!-- un main content -->
+
+    <header class="container vh-100 d-flex justify-content-center align-items-center">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/images/unicorn.png" alt="Logo empresa" class="w-25">
+        <h1 class="display-3 my-5 text-uppercase fw-bold">Unicorncorncornio</h1>
+        <a href="/about" class="btn btn-primary w-25">About</a>
+      </div>
+    </header>
 
     <%- include('partials/footer.ejs') %> 
   </body>
